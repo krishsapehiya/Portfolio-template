@@ -1,0 +1,14 @@
+body {
+  background: #EBEAEB;
+  scroll-behavior: smooth;
+  transition: scroll-behavior 1.9s ease;
+}
+section {
+  scroll-margin-top :80px;
+}
+
+:root.dark body {
+  background: #11001f;
+  scroll-behavior: smooth;
+  transition: scroll-behavior 0.3s ease;
+}
